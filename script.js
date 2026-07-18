@@ -13,54 +13,54 @@ const questionList = [
         q: "伴侣的哪种行为最让你感到幸福？",
         ans: [
             {text:"温柔地支持你的决定，不会过多阻碍你",score:"E"},
-            {text:"时不时给你一个浪漫的惊喜",score:"F"},
-            {text:"慢热内敛，慢慢交心不用多话",score:"G"},
-            {text:"软糯依赖，凡事都想依靠对方",score:"H"}
+            {text:"时不时为你准备一个浪漫的惊喜",score:"F"},
+            {text:"深沉可靠，永远是你坚实的后盾",score:"G"},
+            {text:"会照顾并安抚你的情绪",score:"H"}
         ]
     },
     {
         q: "你理想的恋爱相处模式是？",
         ans: [
-            {text:"热情直白，时时刻刻黏在一起",score:"A"},
-            {text:"温柔克制，双方都保留私人空间",score:"B"},
-            {text:"慢热内敛，慢慢交心不用多话",score:"C"},
-            {text:"软糯依赖，凡事都想依靠对方",score:"D"}
+            {text:"热情直白，时时刻刻黏在一起",score:"B"},
+            {text:"温柔克制，双方都保留私人空间",score:"A"},
+            {text:"慢热内敛，慢慢交心不用多话",score:"D"},
+            {text:"软糯依赖，凡事都想依靠对方",score:"C"}
         ]
     },
     {
-        q: "和伴侣产生矛盾后你会？",
+        q: "你和你的伴侣一起玩游戏时，局内你希望ta？",
         ans: [
-            {text:"直接说出委屈，需要对方哄你",score:"E"},
-            {text:"冷静沉默，等对方主动沟通",score:"BF"},
-            {text:"独自消化情绪，不愿倾诉",score:"C"},
-            {text:"撒娇示弱，很容易被安抚",score:"D"}
+            {text:"时不时来找你贴贴",score:"E"},
+            {text:"全程一直黏着你",score:"BF"},
+            {text:"完全听从你的指挥",score:"C"},
+            {text:"为了效率还是分头行动吧",score:"D"}
         ]
     },
     {
-        q: "收到礼物你最心动哪一类？",
+        q: "收到礼物你最心动哪一个？",
         ans: [
-            {text:"鲜花、绿植盆栽",score:"A"},
-            {text:"香薰、复古首饰",score:"B"},
-            {text:"星空摆件、古籍画册",score:"C"},
-            {text:"糖果、奶油蛋糕",score:"D"}
+            {text:"浅绿色的夜莺烛台",score:"A"},
+            {text:"粉红色的夜莺烛台",score:"B"},
+            {text:"奶白色的夜莺烛台",score:"C"},
+            {text:"淡蓝色的夜莺烛台",score:"D"}
         ]
     },
     {
-        q: "你更喜欢伴侣哪种性格特质？",
+        q: "你更容易被哪种特质吸引？",
         ans: [
-            {text:"阳光元气，活泼开朗",score:"E"},
-            {text:"清冷优雅，温柔体贴",score:"F"},
-            {text:"寡言细腻，内心柔软",score:"G"},
-            {text:"天真单纯，胆小软糯",score:"H"}
+            {text:"真诚",score:"E"},
+            {text:"智慧",score:"F"},
+            {text:"坚韧",score:"G"},
+            {text:"神秘",score:"H"}
         ]
     },
     {
         q: "下雨天居家你会怎么打发时间？",
         ans: [
-            {text:"窗边打理花草聊天",score:"A"},
-            {text:"点上香薰安静看书",score:"B"},
-            {text:"窗边听雨独自发呆",score:"C"},
-            {text:"窝沙发吃甜食追剧",score:"D"}
+            {text:"酣畅淋漓地睡一觉",score:"B"},
+            {text:"安静地看会儿书",score:"A"},
+            {text:"和对象打电话聊天",score:"C"},
+            {text:"在家里锻炼身体💪",score:"D"}
         ]
     },
     {
