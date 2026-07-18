@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "微软雅黑",sans-serif;
+}
+body{
+    background: #f8e8f5;
+    padding: 40px 15px;
+}
+.container{
+    max-width: 620px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 18px;
+    box-shadow: 0 0 15px #e0c8dd;
+}
+h1{
+    color: #b85899;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 26px;
+}
+h2{
+    color: #333;
+    margin: 22px 0;
+    font-size: 20px;
+}
+p{
+    text-align: center;
+    color: #666;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+.q-num{
+    color: #b85899;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* 选项样式 */
+.ans-item{
+    padding: 14px 18px;
+    border: 1px solid #e0c8dd;
+    border-radius: 10px;
+    margin: 12px 0;
+    cursor: pointer;
+    transition: 0.25s ease;
+    font-size: 16px;
+}
+.ans-item:hover{
+    background: #f8e8f5;
+}
+/* 选中后高亮+对勾 */
+.ans-item.active{
+    background: #e8b8dd;
+    border-color: #b85899;
+}
+.ans-item.active::before{
+    content: "✓ ";
+    color: #913a73;
+    font-weight: bold;
+}
+.btn-wrap{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 35px;
+}
+button{
+    padding: 12px 32px;
+    background: #b85899;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background: #a04885;
+}
+.hide{
+    display: none;
+}
+/* 结果页图片 */
+#char-img{
+    width: 220px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 12px;
+}
+#char-desc{
+    line-height: 1.8;
+    color: #555;
+    font-size: 16px;
+    margin-top: 18px;
+}
+#restart{
+    margin-top: 30px;
+}
