@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>猜猜你会和哪个异象结婚</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 首页 -->
+        <div id="start-box">
+            <h1>第五人格异象婚姻测试</h1>
+            <p>共15道选择题，测出与你步入婚姻的异象</p>
+            <button id="start-btn">开始测试</button>
+        </div>
+
+        <!-- 答题区域 -->
+        <div id="quiz-box" class="hide">
+            <div class="q-num">第 <span id="now-q">1</span>/15 题</div>
+            <h2 id="question"></h2>
+            <div id="answer-box"></div>
+            <div class="btn-wrap">
+                <button id="prev-btn" class="hide">上一题</button>
+                <button id="next-btn" class="hide">下一题</button>
+            </div>
+        </div>
+
+        <!-- 结果页（唯一带图片区域） -->
+        <div id="result-box" class="hide">
+            <h2>你的命中结婚对象</h2>
+            <img id="char-img" src="" alt="角色配图">
+            <h1 id="char-name"></h1>
+            <div id="char-desc"></div>
+            <button id="restart">重新测试</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
